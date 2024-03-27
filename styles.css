@@ -47,7 +47,7 @@ a {
 
 /* Change hyperlink, navbar-link, and dropdown-item hover color */
 a:hover, .navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
-  color: #ffc107;
+  color: #3d8bfd;
 }
 
 /* Position the dropdown menu */
@@ -79,55 +79,40 @@ a:hover, .navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
   background-color: #247ba0!important;
 }
 
-.text-oscillation1::before {
-  content: "Owen Jiang";
-  animation-name: oscillation1;
-  animation-duration: 15s;
+.text-oscillation::before {
+  content: "Hands-On Deck";
+  animation-name: oscillation;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
-.text-oscillation2::before {
-  content: "";
-  animation-name: oscillation2;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes oscillation1 {
+@keyframes oscillation {
   0% {content: " "}
-  32% {content: " "}
-  33% {content: "A"}
-  35% {content: "Al ₇₄W"}
-  36% {content: "₈O ₇₄W  e⁻"}
-  37% {content: "₈O ₇₄W  e⁻ ₇N"}
-  65% {content: "₈O ₇₄W  e⁻ ₇N"}
-  66% {content: "O"}
-  68% {content: "Ow"}
-  69% {content: "Owe"}
-  70% {content: "Owen"}
-  71% {content: "Owen"}
-  72% {content: "Owen J"}
-  73% {content: "Owen Ji"}
-  74% {content: "Owen Jia"}
-  75% {content: "Owen Jian"}
-  76% {content: "Owen Jiang"}
-  100% {content: "Owen Jiang"}
-}
-
-@keyframes oscillation2 {
-  0% {content: "<"}
-  1% {content: "<O"}
-  2% {content: "<Ow"}
-  3% {content: "<Owe"}
-  4% {content: "<Owen"}
-  5% {content: "<Owen J"}
-  6% {content: "<Owen Ji"}
-  7% {content: "<Owen Jia"}
-  8% {content: "<Owen Jian"}
-  9% {content: "<Owen Jiang"}
-  10% {content: "<Owen Jiang>"}
-  32% {content: "<Owen Jiang>"}
-  33% {content: " "}
+  1% {content: "H"}
+  2% {content: "Ha"}
+  3% {content: "Han"}
+  4% {content: "Hand"}
+  5% {content: "Hands"}
+  6% {content: "Hands-"}
+  7% {content: "Hands-O"}
+  8% {content: "Hands-On"}
+  9% {content: "Hands-On "}
+  10% {content: "Hands-On D"}
+  11% {content: "Hands-On De"}
+  12% {content: "Hands-On Dec"}
+  13% {content: "Hands-On Deck"}
+  88% {content: "Hands-On Deck"}
+  89% {content: "ands-On Deck"}
+  90% {content: "nds-On Deck"}
+  91% {content: "ds-On Deck"}
+  92% {content: "s-On Deck"}
+  93% {content: "-On Deck"}
+  94% {content: "n Deck"}
+  95% {content: " Deck"}
+  96% {content: "Deck"}
+  97% {content: "eck"}
+  98% {content: "ck"}
+  99% {content: "k"}
   100% {content: " "}
 }
 
@@ -276,7 +261,7 @@ a:hover, .navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
 
 footer {
   margin-top: auto;
-  color: #fffdff;
+  color: #31343a;
 }
 
 /* Footer stuff */
