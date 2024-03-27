@@ -56,12 +56,42 @@
     </nav>
     <div class="body-container">
       <div class="container">
-        <h1 class="text-center">Hands-On Deck</h1>
+        <h1 class="text-center">Blog</h1>
         <div class="row">
           <div class="col-lg-10">
             <article class="blog-post">
-              <h2 class="display-5 link-body-emphasis mb-1">When the ICE car doesn't start</h2>
-              <p class="blog-post-meta">March 25, 2024</p>
+              <h2 class="display-5 link-body-emphasis mb-1"><a href="/posts/fixing-the-leaf.2.html">Fixing the LEAF</a></h2>
+              <p class="blog-post-meta">February 1, 2024</p>
+              <p>My family has a <a href="https://en.wikipedia.org/wiki/Nissan_Leaf_(first_generation)">2013 Nissan LEAF</a>, a blue one that has been with us for some time as well. It also has some problems: the on-board charger, effectively a rectifier (AC to DC) that allows the battery pack to charge, has some problems, and the central screen of the car has malfunctioned (the flippling mechanism), causing a parasite current when the car is parked.</p>
+              <p>I have the same screen issue as <a href="https://mynissanleaf.com/threads/touch-screen-opens-and-closes-by-itself.9620/">this</a> and similar OBC problems as <a href="https://mynissanleaf.com/threads/can-trickle-charger-break-obc.25134/">here</a>, <a href="https://youtu.be/srbZWoMiJ1U">here</a>, and <a href="https://youtu.be/ofhfCVIo5eM">here</a>, but I will have to dig deeper.</p>
+              <hr>
+              <p>This vehicle was part of the first generation of mass-produced electric cars, years before the Tesla Model X first hit the streets—this car in particular was one of the earliest in my town, back when I was 6 years old.</p>
+              <p>A bit of a personal touch—my dad told me that he wished that I would learn to drive using this car, and I finally got a go with it on my 16th birthday in an empty parking lot.</p>
+              <p>Since there are some problems with it now, my parents promised me that if I could get the car fixed, it would be mine. Well, I'll do better—I will upgrade it. I will fix it, upgrade it, and recycle the old battery for use as our home's backup battery supply. Hurray for efficiency!</p>
+              <hr>
+              <p>Some stats:
+                <ul>
+                  <li><code>80 kW</code> AC synchronous motor</li>
+                  <li><code>24 kWh</code> lithium ion manganese oxide battery</li>
+                  <li><code>192</code> cells</li>
+                  <li>Natural air cooling</li>
+                  <li>Battery pack low temperature protection</li>
+                  <li>Two-level charging system
+                    <ul>
+                      <li>AC： <code>110 V</code> and <code>12 A</code>/<code>240 V</code> and <code>15 A</code></li>
+                      <li>DC： <code>480 V</code> and <code>125 A</code> quick charge</li>
+                    </ul>
+                  </li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-center">
+                <img src="/images/mmexport1711509329245.jpg" height="400px" alt="A 2013 Nissan Leaf charging at the MIT campus">
+              </div>
+            </article>
+            <br>
+            <article class="blog-post">
+              <h2 class="display-5 link-body-emphasis mb-1"><a href="/posts/when-the-ice-car-doesnt-start.1.html">When the ICE car doesn't start</a></h2>
+              <p class="blog-post-meta">January 25, 2024</p>
               <p>One day, the car that my parents drove refused to start. Since it was an old car, I guessed that the battery voltage was likely too low.</p>
               <hr>
               <ol>
@@ -72,7 +102,42 @@
               </ol>
               <hr>
               <p>It seems that the only way to be sure of the root of the problem is to use another lead-acid battery to confirm whether or not it's the old battery's problem (and I suspect that it is). We shall see.</p>
+              <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                      <img src="../images/PXL_20240125_201103665.jpg" class="d-block carousel-image" height="400" alt="A lead-acid battery on the ground in front of a multimeter displaying a voltage reading of 12.32 V" preserveAspectRatio="xMidYMid slice">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Battery on the ground</h5>
+                      <p>About 8 hours after disconnect from a full charge</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                      <img src="../images/PXL_20240125_201628433.jpg" class="d-block carousel-image" height="400" alt="A lead-acid battery in a car with a multimeter in front displaying a voltage reading of 12.34 V" preserveAspectRatio="xMidYMid slice">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                      <h5>Placing the battery in the car</h5>
+                      <p>Before the car starts, it showed a relatively stable reading</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </article>
+            <br>
           </div>
           <div class="col-lg-2">
             <div class="card text-center">

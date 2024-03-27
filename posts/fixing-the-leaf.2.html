@@ -56,23 +56,38 @@
     </nav>
     <div class="body-container">
       <div class="container">
-        <h1 class="text-center">Hands-On Deck</h1>
         <div class="row">
           <div class="col-lg-10">
             <article class="blog-post">
-              <h2 class="display-5 link-body-emphasis mb-1">Fixing the LEAF</h2>
-              <p class="blog-post-meta">March 26, 2024</p>
-              <p>One day, the car that my parents drove refused to start. Since it was an old car, I guessed that the battery voltage was likely too low.</p>
+              <h2 class="display-5 link-body-emphasis mb-1"><a href="/posts/fixing-the-leaf.2.html">Fixing the LEAF</a></h2>
+              <p class="blog-post-meta">February 1, 2024</p>
+              <p>My family has a <a href="https://en.wikipedia.org/wiki/Nissan_Leaf_(first_generation)">2013 Nissan LEAF</a>, a blue one that has been with us for some time as well. It also has some problems: the on-board charger, effectively a rectifier (AC to DC) that allows the battery pack to charge, has some problems, and the central screen of the car has malfunctioned (the flippling mechanism), causing a parasite current when the car is parked.</p>
+              <p>I have the same screen issue as <a href="https://mynissanleaf.com/threads/touch-screen-opens-and-closes-by-itself.9620/">this</a> and similar OBC problems as <a href="https://mynissanleaf.com/threads/can-trickle-charger-break-obc.25134/">here</a>, <a href="https://youtu.be/srbZWoMiJ1U">here</a>, and <a href="https://youtu.be/ofhfCVIo5eM">here</a>, but I will have to dig deeper.</p>
               <hr>
-              <ol>
-                <li>I lifted the hood and pulled the lead-acid battery out and took it into the garage to charge overnight. The next morning, the voltage was about <code>13.8 V</code>, which seemed pretty good for being nearly three years old.</li>
-                <li>In the afternoon, I checked the voltage again and it was now at <code>12.5 V</code>. Upon returning to the car, the voltage lowered a bit to <code>12.3 V</code>. Trying to start the car again did nothing.</li>
-                <li>It is possible that the starter and/or the alternator could have problems. The electric starter is what initiates the internal combustion engine and that is the spark that one hears as the car is failing to start. Alternators convert mechanical energy to electrical energy with alternating current (go figure), and it's actually used to recharge the battery and power the rest of the car's electrical system while the engine is running. (Interestingly, before the 60s, most ICEs used commutators instead.)</li>
-                <li>Upon attempting the start the car again, this time with the multimeter in place, I saw the voltage quickly drop down to <code>8</code> to <code>9 V</code>. It is also possible then that the battery is unable to provide enough current to start the car.</li>
-              </ol>
+              <p>This vehicle was part of the first generation of mass-produced electric cars, years before the Tesla Model X first hit the streets—this car in particular was one of the earliest in my town, back when I was 6 years old.</p>
+              <p>A bit of a personal touch—my dad told me that he wished that I would learn to drive using this car, and I finally got a go with it on my 16th birthday in an empty parking lot.</p>
+              <p>Since there are some problems with it now, my parents promised me that if I could get the car fixed, it would be mine. Well, I'll do better—I will upgrade it. I will fix it, upgrade it, and recycle the old battery for use as our home's backup battery supply. Hurray for efficiency!</p>
               <hr>
-              <p>It seems that the only way to be sure of the root of the problem is to use another lead-acid battery to confirm whether or not it's the old battery's problem (and I suspect that it is). We shall see.</p>
+              <p>Some stats:
+                <ul>
+                  <li><code>80 kW</code> AC synchronous motor</li>
+                  <li><code>24 kWh</code> lithium ion manganese oxide battery</li>
+                  <li><code>192</code> cells</li>
+                  <li>Natural air cooling</li>
+                  <li>Battery pack low temperature protection</li>
+                  <li>Two-level charging system
+                    <ul>
+                      <li>AC： <code>110 V</code> and <code>12 A</code>/<code>240 V</code> and <code>15 A</code></li>
+                      <li>DC： <code>480 V</code> and <code>125 A</code> quick charge</li>
+                    </ul>
+                  </li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-center">
+                <img src="/images/mmexport1711509329245.jpg" height="400px" alt="A 2013 Nissan Leaf charging at the MIT campus">
+              </div>
             </article>
+            <br>
           </div>
           <div class="col-lg-2">
             <div class="card text-center">
