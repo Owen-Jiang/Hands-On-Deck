@@ -255,8 +255,8 @@ a:hover, .navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
 
 /* For body and footer positioning */
 .body-container {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 
 footer {
@@ -279,4 +279,8 @@ footer {
 
 .carousel-image {
   background: linear-gradient(0deg,#00000088 30%, #ffffff44 100%)!important;
+}
+
+.animate__flash {
+  --animate-duration: 5s;
 }
