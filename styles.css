@@ -284,3 +284,9 @@ footer {
 .animate__flash {
   --animate-duration: 5s;
 }
+
+/* Center all video in element */
+video {
+  display: block;
+  margin: auto;
+}
