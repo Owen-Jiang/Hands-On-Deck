@@ -14,6 +14,14 @@ em {
   font-style: italic;
 }
 
+/* Fun font for website counter (thanks to Logan Kruger) */
+@font-face { font-family: dotty; src: url('dotty.ttf'); }
+
+#dupli_hit_counter {
+  font-family: dotty;
+  font-size: 2rem;
+}
+
 /* Body requirements */
 body {
   background-color: #edeef3;
