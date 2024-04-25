@@ -298,3 +298,7 @@ video {
   display: block;
   margin: auto;
 }
+
+td {
+  background-color: inherit!important;
+}
