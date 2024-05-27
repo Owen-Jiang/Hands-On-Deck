@@ -95,7 +95,7 @@ a:hover, .navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
 }
 
 @keyframes oscillation {
-  0% {content: " "}
+  0% {content: "_"}
   1% {content: "H"}
   2% {content: "Ha"}
   3% {content: "Han"}
@@ -121,7 +121,7 @@ a:hover, .navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
   97% {content: "eck"}
   98% {content: "ck"}
   99% {content: "k"}
-  100% {content: " "}
+  100% {content: "_"}
 }
 
 /* Customized colors */

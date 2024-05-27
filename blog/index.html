@@ -25,6 +25,9 @@
     <!-- Personal Stylesheet -->
     <link href="../styles.css" rel="stylesheet">
 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
     <!-- Animation CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -63,6 +66,18 @@
         <div class="row">
           <div class="col-lg-10">
             <article class="blog-post">
+              <h2 class="display-5 link-body-emphasis mb-1"><a href="../posts/the-motivation-for-electric-vehicles-power-scheme.7">The motivation for electric vehicles: Power scheme</a></h2>
+              <p class="blog-post-meta">May 27, 2024</p>
+              <em>First written in 2023</em>
+              <blockquote class="blockquote">
+                <p>The Nissan LEAF is the first generation of mass-produced pure-electric family passenger vehicles for the mass market.</p>
+              </blockquote>
+              <h4>Power scheme</h4>
+              <p>The Nissan LEAF adopts an <code>80 kWh</code> permament magnet synchronous motor with a torque of <code>280 N⋅m</code>. As it was the first pure electric vehicle on the mass market, it set the highest standard for all subsequent pure-electric family passenger vehicles in terms of its power scheme and <strong>energy efficiency</strong>.</p>
+              <p>Later electric vehicles (such as Tesla's) were not "forced" to achieve this until 2017, and two years later, all such vehicles on the market adopted permanent magnet synchronous motors.</p>
+              <p>After 10 years and <code>74,500 miles</code> (<code>119,200 kilometers</code>), the performance of the motor has barely degraded. This is an example of a key difference between electric and internal combustion powertrains (the system that propels the vehicle forward)—electric power greatly simplifies the powertrain of passenger cars and greatly extends the life of the car. It is honestly quite surprising how one of the more complex and fragile parts of the entire internal combustion system becomes, in electric vehicles, the part with the longest lifespan and one with almost zero maintenance requirements. Such a development is a revolutionary step.</p>
+            </article>
+            <article class="blog-post">
               <h2 class="display-5 link-body-emphasis mb-1"><a href="../posts/it-came-with-a-coaster.6">It came with a coaster!</a></h2>
               <p class="blog-post-meta">May 22, 2024</p>
               <img class="w-100 my-2" src="../images/PXL_20240523_042250852.jpg" alt="The heavy box">
@@ -79,9 +94,9 @@
               <p class="blog-post-meta">May 13, 2024</p>
               <p><a href="https://www.aliexpress.com/item/3256806371636842.html">This</a> is the "this" in question: </p>
               <hr>
-              <img src="../images/1100217882343.png" alt="A &#x0022;Free shipping US Motorcycle Jack Bike Scissor Floor 9&#x0022; Wide Deck Hoist Lift Stand 1100Lb with Saddle Lift Dirt Bike accessories&#x0022;, but with no wheels">
+              <img class="w-100" src="../images/1100217882343.png" alt="A &#x0022;Free shipping US Motorcycle Jack Bike Scissor Floor 9&#x0022; Wide Deck Hoist Lift Stand 1100Lb with Saddle Lift Dirt Bike accessories&#x0022;, but with no wheels">
               <hr>
-              <p>While the battery has not been bought yet, I do need to start thinking about how it would be possible to remove the original battery out of the car, when the ground clearance is only 6 inches and the entire battery is at least a foot tall. I could lift the entire car like in those typically car mechanic shops, but I don't want to do that. Jacks on the ground also can only lift the car by so much. Either way, this cheap liftable table would work fine, except that it doesn't have any wheels to pull the battery out once I've removed it.</p>
+              <p>While the battery has not been bought yet, I do need to start thinking about how it would be possible to remove the original battery out of the car, when the ground clearance is only <code>6"</code> and the entire battery is at least a foot tall. I could lift the entire car like in those typically car mechanic shops, but I don't want to do that. Jacks on the ground also can only lift the car by so much. Either way, this cheap liftable table would work fine, except that it doesn't have any wheels to pull the battery out once I've removed it.</p>
             </article>
             <br>
             <article class="blog-post">
@@ -122,7 +137,7 @@
               <p>At this point, I must thank Jack, who worked at one of the junkyards nearby and directed me to <a href="https://nationwideautorecycling.com/">Nationwide Auto Recycling</a> and recommended that I check on auto parts online (something that I had never really known was a thing). Checking every so often led me to a $7000 battery, still intact from a totalled 2019 model. Since the ones on <a href="https://qccharge.com/products/battery-high-voltage-traction-new-for-nissan-leaf?variant=44417197015199">QCCharge</a> asked for $500 more, this seemed like a great deal. I was about to make the call when I checked the VIN number and realized it was not a Plus model. Defeated again.</p>
               <p>Even despite numerous attempts to find other parts online, there didn't seem to be anything coming in. And so I thought for a few days about how I would proceed.</p>
               <hr>
-              <p>While scrolling through YouTube Shorts a few days later, I found a few videos from a few companies specializing in lithium-ion battery manufacture, all based around Shenzhen, with corresponding WhatsApp numbers. These companies would prepare separate units and then combine them into packages so that the total output would reach 63 kWh, and the entire box could be shipped anywhere worldwide. As of right now, I'm currently analyzing prices and seeing whether or not I can get something out of this. We'll have to see how this turns out. But in either case, if you happen to find a <code>62 kWh</code> Nissan LEAF battery lying around, I could use it.</p>
+              <p>While scrolling through YouTube Shorts a few days later, I found a few videos from a few companies specializing in lithium-ion battery manufacture, all based around Shenzhen, with corresponding WhatsApp numbers. These companies would prepare separate units and then combine them into packages so that the total output would reach <code>63 kWh</code>, and the entire box could be shipped anywhere worldwide. As of right now, I'm currently analyzing prices and seeing whether or not I can get something out of this. We'll have to see how this turns out. But in either case, if you happen to find a <code>62 kWh</code> Nissan LEAF battery lying around, I could use it.</p>
             </article>
             <br>
             <article class="blog-post">
@@ -152,7 +167,7 @@
               <p>Below is a diagram of the serpentine belt.</p>
               <div class="row">
                 <div class="col-lg-6">
-                  <img src="/home/ubuntu/Documents/GitHub/Hands-On-Deck/images/GeneratorAssyComponentsLabeled.png" class="w-100 mb-3" alt="Generator Assembly Components, with screws labeled A, B, and C" class="my-3">
+                  <img src="../images/GeneratorAssyComponentsLabeled.png" class="w-100 mb-3" alt="Generator Assembly Components, with screws labeled A, B, and C" class="my-3">
                 </div>
                 <div class="col-lg-6">
                   <p>Screws A (<code>14 mm</code>) and B (<code>12 mm</code>) would have to be loosened and only then could screw C (also <code>12 mm</code>) be used to adjust the tension.</p>
