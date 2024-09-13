@@ -22,6 +22,12 @@ em {
   font-size: 2rem;
 }
 
+.post-image {
+  display: block;
+  object-fit: cover;
+  width: auto;
+}
+
 /* Body requirements */
 body {
   background-color: #edeef3;
