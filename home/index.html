@@ -14,6 +14,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <!-- Blog TOC -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,19 +66,36 @@
           <img src="../images/Hands-On Deck.png" alt="Header" class="post-image" width="100%" height="750vh" preserveAspectRatio="meet slice" focusable="false">
           <div class="card-img-overlay">
             <br>
-            <h1 class="card-title text-center"><strong><a href="https://handsondeck.vercel.app">Hands-<span class="text-white">On Deck</span></a></strong></h1>
+            <h1 class="card-title text-center"><strong><a href="https://handsondeck.vercel.app" style="text-decoration: none;">Hands-</strong><span class="text-white">On Deck</span></a></h1>
           </div>
         </div>
+        <br>
         <div class="row">
-          <div class="col-lg-8">
-            <div>
+          <div class="col-lg-2">
+            <h4 class="fst-italic text-center" data-toc-skip>Index</h4>
+            <h6 class="fst-italic text-center" data-toc-skip><a href="../blog/">Quick scan</a></h6>
+            <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+          </div>
+          <div class="col-lg-10">
+            <article class="blog-post">
+              <h2 class="display-5 link-body-emphasis mb-1"><a href="../posts/giving-a-talk.16">Giving a talk</a></h2>
+              <p class="blog-post-meta">September 13, 2024</p>
+              <p>
+                I'm giving a talk about oceanic circulation and modeling and how the oceans influence climate change on <code>September 27th</code>!
+              </p>
+              <img src="../images/flyer.png" alt="Talk flyer" class="w-100">
               <br>
-              <h4 class="fst-italic">Recent posts</h4>
+              <p>
+                Students and parents alike, feel free to attend, you're welcome to come and ask any questions!
+              </p>
+            </article>
+            <div style="display: none;">
+              <br>
               <ul class="list-unstyled">
                 <li>
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/monthly-oceanic-temperature-animation.17">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">Monthly Oceanic Temperature Animation</h4>
+                      <h4 class="mb-0" data-toc-text="9/14/2024: Monthly Oceanic Temperature Animation">Monthly Oceanic Temperature Animation</h4>
                       <h6 class="text-body-secondary">September 14, 2024</h6>
                     </div>
                   </a>
@@ -84,7 +104,7 @@
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/giving-a-talk.16">
                     <img src="../images/flyer.png" alt="Giving a talk" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">Giving a talk</h4>
+                      <h4 class="mb-0" data-toc-text="9/13/2024: Giving a talk">Giving a talk</h4>
                       <h6 class="text-body-secondary">September 13, 2024</h6>
                     </div>
                   </a>
@@ -93,16 +113,16 @@
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/fused-bike-pedal.15">
                     <img src="../images/bike.jpeg" alt="Fused Bike Pedal" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">Fused Bike Pedal</h4>
+                      <h4 class="mb-0" data-toc-text="8/30/2024: Fused Bike Pedal">Fused Bike Pedal</h4>
                       <h6 class="text-body-secondary">August 30, 2024</h6>
                     </div>
                   </a>
                 </li>
                 <li>
-                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/fused-scuba.14">
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/scuba.14">
                     <img src="../images/certified.png" alt="Scuba" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">Scuba</h4>
+                      <h4 class="mb-0" data-toc-text="8/26/2024: Scuba">Scuba</h4>
                       <h6 class="text-body-secondary">August 26, 2024</h6>
                     </div>
                   </a>
@@ -110,7 +130,7 @@
                 <li>
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/independence-day.13">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">Independence Day</h4>
+                      <h4 class="mb-0" data-toc-text="7/4/2024: Independence Day">Independence Day</h4>
                       <h6 class="text-body-secondary">July 4, 2024</h6>
                     </div>
                   </a>
@@ -118,7 +138,7 @@
                 <li>
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/life.12">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">Life</h4>
+                      <h4 class="mb-0" data-toc-text="6/24/2024: Life">Life</h4>
                       <h6 class="text-body-secondary">June 24, 2024</h6>
                     </div>
                   </a>
@@ -126,7 +146,7 @@
                 <li>
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/the-motivation-for-electric-vehicles-conclusion.11">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">The motivation for electric vehicles: Conclusion</h4>
+                      <h4 class="mb-0" data-toc-text="6/13/2024: The motivation for electric vehicles: Conclusion">The motivation for electric vehicles: Conclusion</h4>
                       <h6 class="text-body-secondary">June 13, 2024</h6>
                     </div>
                   </a>
@@ -134,7 +154,7 @@
                 <li>
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/the-motivation-for-electric-vehicles-appearance-and-design.10">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">The motivation for electric vehicles: Appearance and design</h4>
+                      <h4 class="mb-0" data-toc-text="6/5/2024: The motivation for electric vehicles: Appearance and design">The motivation for electric vehicles: Appearance and design</h4>
                       <h6 class="text-body-secondary">June 5, 2024</h6>
                     </div>
                   </a>
@@ -142,7 +162,7 @@
                 <li>
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/the-motivation-for-electric-vehicles-mechanical-design.9">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">The motivation for electric vehicles: Mechanical design</h4>
+                      <h4 class="mb-0" data-toc-text="6/1/2024: The motivation for electric vehicles: Mechanical design">The motivation for electric vehicles: Mechanical design</h4>
                       <h6 class="text-body-secondary">June 1, 2024</h6>
                     </div>
                   </a>
@@ -151,7 +171,7 @@
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/the-motivation-for-electric-vehicles-energy-solutions.8">
                     <img src="../images/mmexport1711512456379.jpg" alt="The motivation for electric vehicles: Energy solutions" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">The motivation for electric vehicles: Energy solutions</h4>
+                      <h4 class="mb-0" data-toc-text="5/29/2024: The motivation for electric vehicles: Energy solutions">The motivation for electric vehicles: Energy solutions</h4>
                       <h6 class="text-body-secondary">May 29, 2024</h6>
                     </div>
                   </a>
@@ -159,7 +179,7 @@
                 <li>
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/the-motivation-for-electric-vehicles-power-scheme.7">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">The motivation for electric vehicles: Power scheme</h4>
+                      <h4 class="mb-0" data-toc-text="5/27/2024: The motivation for electric vehicles: Power scheme">The motivation for electric vehicles: Power scheme</h4>
                       <h6 class="text-body-secondary">May 27, 2024</h6>
                     </div>
                   </a>
@@ -168,7 +188,7 @@
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/it-came-with-a-coaster.6">
                     <img src="../images/PXL_20240523_042250852.jpg" alt="It came with a coaster!" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">It came with a coaster!</h4>
+                      <h4 class="mb-0" data-toc-text="5/22/2024: It came with a coaster!">It came with a coaster!</h4>
                       <h6 class="text-body-secondary">May 22, 2024</h6>
                     </div>
                   </a>
@@ -177,7 +197,7 @@
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/i-wish-this-came-with-a-coaster.5">
                     <img src="../images/1100217882343.png" alt="I wish this came with a coaster" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">I wish this came with a coaster</h4>
+                      <h4 class="mb-0" data-toc-text="5/13/2024: I wish this came with a coaster">I wish this came with a coaster</h4>
                       <h6 class="text-body-secondary">May 13, 2024</h6>
                     </div>
                   </a>
@@ -186,7 +206,7 @@
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/search-struggles.4">
                     <img src="../images/table.png" alt="Search struggles" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">Search struggles</h4>
+                      <h4 class="mb-0" data-toc-text="4/14/2024: Search struggles">Search struggles</h4>
                       <h6 class="text-body-secondary">April 14, 2024</h6>
                     </div>
                   </a>
@@ -195,7 +215,7 @@
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/the-squeaking-belt.3">
                     <img src="../images/PXL_20240329_194315165.PORTRAIT.jpg" alt="The squeaking belt" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">The squeaking belt</h4>
+                      <h4 class="mb-0" data-toc-text="3/30/2024: The squeaking belt">The squeaking belt</h4>
                       <h6 class="text-body-secondary">March 30, 2024</h6>
                     </div>
                   </a>
@@ -204,7 +224,7 @@
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/fixing-the-leaf.2">
                     <img src="../images/mmexport1711509329245.jpg" alt="Fixing the LEAF" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">Fixing the LEAF</h4>
+                      <h4 class="mb-0" data-toc-text="2/1/2024: Fixing the LEAF">Fixing the LEAF</h4>
                       <h6 class="text-body-secondary">February 1, 2024</h6>
                     </div>
                   </a>
@@ -213,7 +233,7 @@
                   <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="../posts/when-the-ice-car-doesnt-start.1">
                     <img src="../images/PXL_20240125_201103665.jpg" alt="When the ICE car doesn't start" class="post-image" width="100%" height="96" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <div class="col-lg-8">
-                      <h4 class="mb-0">When the ICE car doesn't start</h4>
+                      <h4 class="mb-0" data-toc-text="1/25/2024: When the ICE car doesn't start">When the ICE car doesn't start</h4>
                       <h6 class="text-body-secondary">January 25, 2024</h6>
                     </div>
                   </a>
@@ -235,5 +255,6 @@
     <!-- Bootstrap JS/Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
   </body>
 </html>
