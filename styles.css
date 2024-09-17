@@ -120,6 +120,7 @@ a:hover, .navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
   animation-name: oscillation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  font-weight: 600;
 }
 
 @keyframes oscillation {
